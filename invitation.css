@@ -1,0 +1,653 @@
+* {
+    padding:0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    height:100px;
+    z-index: 1;
+}
+header h1 {
+    display: inline-block;
+    padding:16px 24px;
+}
+header h1 a {
+    transition: .3s;
+    color: #FBFCFC ;
+    font-family: 'Gill Sans MT';
+    font-size: 30px;
+}
+header h1 a:hover {
+    color: #2B3032;
+}
+header ul {
+    float: right;
+    display: block;
+}
+header ul li {
+    padding: 10px 24px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+header ul li a {
+    transition: .3s;
+    color: #FBFCFC ;
+    font-family: 'Gill Sans MT';
+}
+header ul li a:hover {
+    color: #2B3032
+}
+.navbar {
+    background-color: #F48484;
+    box-shadow: 0 3px 3px grey;  
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    z-index: 1;
+}
+.navbar-2 {
+    background-color: #F48484;
+    box-shadow: 0 3px 3px grey;  
+    margin-top: -83px;
+}
+.dropdown {
+    font-family: 'Gill sans MT';
+    margin: 40px;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 1px;
+    z-index: 1;
+    border-radius: 10px;
+}  
+.dropdown-content a{
+    color: #000;
+}
+.dropdown-content a:hover{
+    color: #F48484;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#home{
+    height: 100vh;
+    background-image: url(/img/background1.png);
+    background-size: 100%;
+    margin-top: -100px;
+}
+audio {
+    top: 5.5rem;
+    right: 1rem;
+    position: fixed;
+    width: 175px;
+}
+audio::-webkit-media-controls-panel {
+    -webkit-justify-content: center;
+    background-color: #FF917B;
+    
+}
+.banner {
+    text-align: center;
+    margin-left: -30px;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+}
+.banner h1 {
+    padding-top: 190px;
+}
+.banner p {
+    font-size: 50px;
+}
+.address {
+    font-family: candara;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: #F48484;
+    height: 200px;
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+    margin-left: -15px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 3px 3px 3px  #2B3032;
+}
+.address-1 svg{
+    color:white;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.address-1{
+    padding-left: 25px;
+    padding-top: 25px;
+    display: flex;
+}   
+.address-2 svg{
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.address-2{
+    padding-left: 25px;
+    padding-top: 5px;
+    display: flex;
+} 
+.address-3 svg {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.address-3 {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.address-4 svg {
+    color: whiteh;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.address-4 {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.address-container {
+    margin-left: 530px;
+}
+#introduction{
+    height: 110vh;
+    background-image: url(/img/background3.png);
+    background-size: 101%;
+}
+.parag {
+    font-family: 'Gill Sans MT';
+    font-size: 40px;
+    margin-left: -30px;
+    padding-top: 60px;
+    color: #2B3032;
+}
+.parag h5 {
+    font-family: Candara;
+    margin-top: 35px;
+    text-align: center;
+}
+.parag p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.pic-1 img {
+    margin-left: 570px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.parag-2 dl {
+    font-size: 30px;
+    margin-left: -15px;
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    margin-top: 10px;
+    text-align: center;
+}
+mark {
+    background-color: #F48484;
+    border-radius: 10px;
+}
+#attendance {
+    height: 100vh;
+    background-image: url(/img/background4.png);
+    background-size: 101%;
+}
+.attendance-wrapper{
+    text-align: center;
+    color: #2B3032;
+}
+.attendance-wrapper h4 {
+    padding-top: 140px;
+    font-family: segoe UI;
+    font-size: 35px;
+    color: #2B3032;
+}
+.attendance-wrapper h6 {
+    margin-top: 25px;
+    font-size: 35px;
+    font-family: segoe UI;
+}
+.attendance-wrapper p {
+    font-size: 25px;
+    font-family: 'Gill sans MT';
+}
+.attendance-wrapper button {
+    width: 120px;
+    height: 50px;
+}
+.attendance-wrapper .btn-1 button {
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-left: 450px;
+    background-color: #F48484;
+    border: none;
+    font-family: 'Gill sans MT';
+    font-size: 17px;
+    border-radius: 50px;
+}
+.attendance-wrapper .btn-1 button a{
+    color: #fff;
+}
+.attendance-wrapper .btn-1 button a:hover{
+    color: #2B3032;
+}
+.attendance-wrapper .btn-2 button {
+    float: right;
+    display: block;
+    margin-top: 20px;
+    margin-right: 450px;
+    background-color: #FFE7CC;
+    font-family: 'Gill sans MT';
+    font-size: 17px;
+    border-radius: 50px;
+}
+.attendance-wrapper .btn-2 button a{
+    color: #2B3032;
+}
+.attendance-wrapper .btn-2 button a:hover{
+    color: red;
+}
+#rules {
+    height: 100vh;
+    background-image: url(/img/background.png);
+    background-size: 101%;
+}
+
+.rules-wrapper h1 {
+    text-align: center;
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 70px;
+}
+.rules-1 ol li{
+    font-family: 'Gill sans MT';
+    font-size: 35px;
+    margin-left: 580px;
+    margin-top: 30px;
+    color: #2B3032;
+}
+#rundown{
+    height: 100vh;
+    background-color: #FFE7CC;
+}
+.parag-3{
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    font-size: 40px
+}
+.parag-3 h1{
+    padding-top: 80px;
+}
+.rundown-container table {
+    margin-left: 250px;
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 900px;
+    font-family: 'Gill sans MT';
+    font-size: 25px;
+}
+.rundown-container th {
+    background-color: #F48484;
+    color: white;
+    width: 600px;
+    height: 50px;
+}
+.rundown-container td {
+    width: 600px;
+    height: 50px;
+    background-color: white;
+}
+#location{
+    height: 100vh;
+    background-color: #FFF6F5;
+}
+.parag-4 {
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    font-size: 40px
+}
+.parag-4 h1 {
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+.address-container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFE7CC;
+    height: 385px;
+}
+.address2 {
+    font-family: 'Gill Sans MT';
+    font-size: 23px;
+    margin-top: 120px;
+    height: 200px;
+    width: 500px;
+    color: #2B3032;
+    border-radius: 10px;
+    width: 400px;
+    height: 170px;
+}
+.address2 button {
+    background-color: #F48484;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: -5px;
+    font-family: 'Gill sans MT';
+    font-size: 15px;
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+.address2 button a {
+    color: #f9f9f9;
+}
+.address2 button a:hover {
+    color: #2B3032;
+}
+.address- dl ul {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.pic-2 {
+    width: fit-content;
+}
+.pic-2 iframe{
+    margin-top: 42px;
+    border-radius: 20px;
+    margin-right: -30px;
+}
+#wishes{
+    height: 100vh;
+    background-color: #FFF6F5;
+}
+.parag-5 {
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    font-size: 40px
+}
+.parag-5 h1 {
+    padding-top: 80px;
+}
+textarea, input:not(input[type="checkbox"]) {
+    margin: 10px 1px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.form input[type=text]{
+    margin-top: 1px;
+}
+.form input[type=number]{
+    margin-top: -10px;
+    margin-bottom: 3px;
+}
+.form input[type=date]{
+    margin-top: -10px;
+    margin-bottom: 3px;
+}
+.form form {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #F48484;
+    border-radius: 20px;
+    width: 300px;
+    align-items: center;
+    left: calc(50% - 300px/2);
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    padding-top: 4%;
+    z-index: 0;
+}
+.form input {
+    width: 100%;
+    margin-top: -3px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    z-index: 0;
+}
+.form textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    margin-top: -2px;
+    border: none;
+    border-radius: 10px;
+    z-index: 0;
+}
+.checkbox-container #checkbox-1 {
+    width: 20px;
+    height: auto;
+}
+.checkbox-container label {
+    margin: 10px 0px;
+    margin-top: 20px;
+    font-family: 'Gill sans MT';
+    font-size: 13px;
+}
+.radio-container{
+    margin-top: -10px;
+    display: inline-block;
+    align-items: center;
+}
+input[type="radio"]{
+    display: none;
+}
+label{
+    margin-left: -20px;
+}
+label span{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Gill sans MT';
+    color: #fff;
+}
+label span:before{
+    content: "";
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow:  inset 0 0 0 2px #2B3032;
+}
+input[type="radio"]:checked + span:before{
+    box-shadow: inset 0 0 0 10px #2B3032;
+}
+.form button {
+    margin-top: -10px;
+    background-color: #2B3032;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-family: 'Gill sans MT';
+    border: none;
+    z-index: 0;
+}
+.form button:hover {
+    color: #F48484;
+}
+#gift {
+    height: 100vh;
+    background-color: #FFF6F5;
+}
+.parag-8 h1 {
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 60px
+}
+.gift-container {
+    background-color: #F48484;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    color: white;
+}
+.gift-container img {
+    width: 280px;
+    height: 200px;
+    margin-bottom: -70px;
+}
+.gift-number {
+    margin-top: -50px;
+    margin-bottom: 35px;
+    margin-left: 320px;
+    font-size: 25px;
+    font-family: 'Gill sans MT';
+}
+.gift-container2 {
+    background-color: #F48484;
+    border-radius: 20px;
+    width: 500px;
+    height: 230px;
+    margin-top: -200px;
+    margin-left: 800px;
+    color: white;
+}
+.gift-container2 img {
+    width: 240px;
+    height: 230px;
+    margin-bottom: -70px;
+}
+.gift-number2 {
+    margin-top: -50px;
+    margin-bottom: 35px;
+    margin-left: 320px;
+    font-size: 25px;
+    font-family: 'Gill sans MT';
+}
+.form-copy {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 2px;
+}
+button.btn-copy{
+    padding: 10px 5px;
+    color: #fff;
+    background-color: #2B3032;
+    border: none;
+}
+button.btn-copy:hover{
+    background-color: #F48484;
+}
+.btn-circle {
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    float: right;
+}
+#gallery {
+    height: 100vh;
+    background-color: #FFE7CC;
+}
+.parag-6 {
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    font-size: 40px
+}
+.parag-6 h1 {
+    padding-top: 80px;
+}
+.photos {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.photos img {
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 26px;
+    border-radius: 20px;
+}
+#youtube {
+    height: 100vh;
+    background-color: #FFF6F5;
+}
+.parag-7 h6 {
+    padding-top: 80px;
+    font-family: 'Gill sans MT condensed';
+    color: #2B3032;
+    text-align: center;
+    font-size: 50px
+}
+.youtube-wrapper iframe {
+    margin-top: 20px;
+    margin-left: 170px;
+    border-color: blue;
+}
+.youtube-wrapper video {
+    margin-left: 100px;
+}
+.footer-1{
+    background: #F48484;
+    padding: 10px 0px;
+    font-family: 'Gill sans MT';
+    text-align:center;
+}   
+.footer-1 .footer-wrapper{
+    width:100%;
+    padding:0.6% 0%;
+    color: white;
+    font-size: 15px;
+}   
+.footer-1 .footer-wrapper a{
+    color:white;
+    transition:0.5s;
+}  
+.footer-1 .footer-wrapper a:hover{
+    color: #2B3032;
+}
+.footer-1 .footer-wrapper a i{
+    font-size: 30px;
+    margin:0% 1%;
+}

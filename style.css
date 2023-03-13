@@ -1,0 +1,120 @@
+* {
+    padding:0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    background-color: #F48484;
+    box-shadow: 0 3px 3px grey;  
+}
+header {
+    height:100px;
+}
+header h1 {
+    display: inline-block;
+    padding:16px 24px;
+}
+header h1 a {
+    transition: .3s;
+    color: white;
+    font-family: 'Candara';
+    font-size: 30px;
+}
+header h1 a:hover {
+    color: #e2725b
+}
+a {
+    text-decoration: none;
+}
+#login{
+    height: 73vh;
+    background-color: #FFF6F5;
+    margin-top: -30px;
+}
+.form h3 {
+    margin-top: 5px;
+    font-family: 'Gill sans MT';
+    font-size: 30px;
+    color: white;
+}
+.form p {
+    font-family: 'Gill sans MT';
+    font-size: 15px;
+    color: white;
+}
+.form form {
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    margin-top: 90px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #F48484;
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    align-items: center;
+    left: calc(50% - 300px/2);
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    padding-top: 4%;
+    z-index: 0;
+}
+.form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    z-index: 0;
+    text-align: center;
+}
+.form select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    z-index: 0;
+}
+.form form .btn-4 button {
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 100px;
+    height: 35px;
+    font-family: 'Gill sans MT';
+    border-color: #2B3032;
+    font-size: 15px;
+}
+.form form .btn-4 button a {
+    color: #2B3032;
+}
+.form form .btn-4 button a:hover {
+    color: #F48484;
+}
+.footer-1{
+    background: #F48484;
+    margin-top: 0px;
+    padding: 10px 0px;
+    font-family: 'Gill sans MT';
+    text-align:center;
+}   
+.footer-1 .footer-wrapper{
+    width:100%;
+    padding:0.6% 0%;
+    color: white;
+    font-size: 15px;
+}   
+.footer-1 .footer-wrapper a{
+    color:white;
+    transition:0.5s;
+}  
+.footer-1 .footer-wrapper a:hover{
+    color: #2B3032;
+}
+.footer-1 .footer-wrapper a i{
+    font-size: 30px;
+    margin:0% 1%;
+}
