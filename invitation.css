@@ -382,11 +382,18 @@ mark {
     margin-left: 40px;
     margin-top: 10px;
 }
+.pic-2 h5 {
+    font-family: 'Gill sans MT';
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: 80px;
+    color: #2B3032;
+}
 .pic-2 img{
     margin-right: -50px;
-    margin-top: 25px;
-    width: 330px;
-    height: 330px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
 }
 #wishes{
     height: 100vh;
