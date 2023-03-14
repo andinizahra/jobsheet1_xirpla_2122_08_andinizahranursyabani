@@ -18,10 +18,18 @@
     <section id="login">
         <div class="form">
             <form>
-                <h3>LOGIN</h3>
-                <p>(login dengan akun yang sudah diberikan)</p>
-                <input required type="email" placeholder="email" name="email"/>
-                <input required type="password" placeholder="password" name="pwd"/>
+              <div class="imgcontainer">
+                <img src="img/user.png" class="avatar">
+              </div>
+              <p></p>
+              <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label><b>Gender</b></label>
                 <select name="gender" required>
                     <option value="laki-laki">laki-laki</option>
                     <option value="perempuan">perempuan</option>
@@ -29,6 +37,8 @@
                 <div class="btn-4">
                     <button><b><a href="/invitation.html">Login</a></b></button>
                 </div>
+              </div>
+              </div>
             </form>
         </div>
 
