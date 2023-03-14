@@ -218,7 +218,7 @@ mark {
 }
 #attendance {
     height: 100vh;
-    background-image: url(/img/background4.png);
+    background-color: #FFE7CC;
     background-size: 101%;
 }
 .attendance-wrapper{
@@ -382,13 +382,11 @@ mark {
     margin-left: 40px;
     margin-top: 10px;
 }
-.pic-2 {
-    width: fit-content;
-}
-.pic-2 iframe{
-    margin-top: 42px;
-    border-radius: 20px;
-    margin-right: -30px;
+.pic-2 img{
+    margin-right: -50px;
+    margin-top: 25px;
+    width: 330px;
+    height: 330px;
 }
 #wishes{
     height: 100vh;
